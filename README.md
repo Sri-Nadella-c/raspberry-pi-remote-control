@@ -1,13 +1,19 @@
 # 🍓 Raspberry Pi Project
 
-> A hands-on embedded systems project built using Raspberry Pi — covering hardware interfacing, Python scripting, and real-world automation.
+ A hands-on embedded systems project built using Raspberry Pi — covering hardware interfacing, Python scripting, and real-world automation.
 
 ---
 
 ## 📌 Project Overview
 
-<!-- Replace this section with your actual project description -->
-This project demonstrates the use of Raspberry Pi for [your project goal — e.g., home automation / IoT sensor monitoring / security camera system, etc.].
+This project is a network-based remote monitoring and control system built around a Raspberry Pi 3 and an Android application. It enables users to discover devices on a local network, establish a connection with a Raspberry Pi, and execute system-level commands remotely through a mobile interface.
+
+The system combines multi-threaded network scanning, real-time device communication, and a user-friendly Android frontend to simplify interaction with embedded systems. Instead of relying on direct terminal access or manual configuration, users can control and monitor the Raspberry Pi seamlessly over WiFi.
+
+The architecture is designed to be lightweight and extensible, allowing future integration with IoT components such as sensors, relays, and automation modules. This makes the project suitable not only for remote system management but also as a foundation for scalable IoT applications.
+
+By bridging mobile applications with embedded hardware over a network, this project demonstrates practical implementation of distributed systems, device discovery, and remote command execution.
+
 
 It was developed as part of [your course/institution name] and covers:
 - GPIO pin interfacing
@@ -33,6 +39,7 @@ It was developed as part of [your course/institution name] and covers:
 
 ## 💻 Software Requirements
 
+- Linux 
 - Raspberry Pi OS (Raspbian)
 - Python 3.x
 - Required Libraries:
@@ -59,8 +66,6 @@ RaspberryPi-Project/
 └── images/
     └── setup.jpg           ← Project photos
 ```
-
----
 
 ## ⚙️ Setup & Installation
 
@@ -93,24 +98,23 @@ python3 main.py
 
 ## 🔌 Circuit Diagram
 
-<!-- Add your circuit diagram image here -->
-![Circuit Diagram](circuit_diagram/circuit.png)
+<img width="1536" height="1024" alt="cirrcuit diagram" src="https://github.com/user-attachments/assets/9b2137bd-0ff7-4ba3-9926-644d1a061c15" />
 
 ---
 
-## 📸 Project Photos
-
-<!-- Add photos of your actual setup -->
-![Project Setup](images/setup.jpg)
-
 ---
 
-## 📊 Results
+### 📊 Results
 
-<!-- Describe what the project achieved -->
-- ✅ Successfully interfaced [component] with Raspberry Pi
-- ✅ Achieved [outcome/reading/result]
-- ✅ Demonstrated [feature/functionality]
+## 🏆 Achievements
+
+* 🚀 Designed and implemented a multi-threaded network scanning system to detect active devices within a local network efficiently.
+* ⚡ Built a real-time remote command execution system enabling seamless interaction with Raspberry Pi without direct terminal access.
+* 📱 Developed an Android-based interface to simplify remote system monitoring and control for embedded devices.
+* 🔍 Optimized device discovery process using parallel execution, reducing network scan time significantly compared to sequential methods.
+* 🌐 Successfully integrated mobile application with embedded hardware over WiFi, demonstrating practical implementation of distributed systems.
+* 🧠 Applied software engineering principles including modular design, system architecture planning, and testing workflows.
+* 🔧 Created a scalable foundation that can be extended to IoT applications such as home automation and sensor monitoring.
 
 ---
 
@@ -124,10 +128,8 @@ python3 main.py
 
 ## 👤 Author
 
-**Your Name**  
-📧 your.email@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile)  
-🐙 [GitHub](https://github.com/YOUR_USERNAME)
+Sony Sri Chaitanya Nadella 
+📧 sonychaitanya527@gmail.com  
 
 ---
 
