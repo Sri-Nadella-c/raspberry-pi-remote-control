@@ -1,0 +1,5 @@
+RPi.GPIO>=0.7.0
+# Add any other Python libraries your project uses, for example:
+# picamera>=1.13
+# Adafruit-DHT>=1.4.0
+# flask>=2.0
